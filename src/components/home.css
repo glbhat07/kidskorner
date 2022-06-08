@@ -1,0 +1,100 @@
+.home1{
+     /* background:url(../photos/bgf10.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position:relative;
+    background-attachment:fixed;
+    height: 100%;
+        min-height: 768px;
+        min-width: 1023px;
+    padding-top: 13%;       */
+    
+    background:url(../photos/bgf10.jpeg);
+    background-position:relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-top: 13%;
+    padding-bottom: 6%;
+
+}
+ 
+.home1 .hbody1 .hdiv1 img
+{
+ display: block;
+ margin: auto;
+ height:250px;
+ width:250px;
+}
+.home1 .hbody1 {
+    padding: 30px;
+    width: fit-content;
+   background-color: blue;
+   margin: auto;
+   border: solid;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.63) 6px 8px;
+   /* -webkit-text-fill-color: transparent; */
+}
+.home1 .hbody1 h1 a{
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align:center;
+    color:rgb(253, 253, 253);
+    text-decoration: none;
+    -webkit-text-stroke: 0.25px black;
+
+}
+.home1 .hbody1 h1 a:hover{
+       
+    color:aqua;
+}
+@media only screen and (max-width:400px) {
+    
+    .home1{
+        background-image:url(../photos/bgf10.jpeg);
+        /* background: chartreuse; */
+        /* background-repeat: repeat; */
+        background-size:cover;
+        background-position:relative;
+         /* background-attachment:fixed; */
+            /* max-height: 900px; */
+            /* max-width: 600px;*/
+            /* background-size: cover; */
+        padding-top: 13%;
+        padding-bottom: 17%;    
+        /* width: auto; */
+    }
+    .home1 .hbody1 .hdiv1 img
+    {
+     width: 100px;
+     height: 150px;
+    }
+    .home1 .hbody1 {
+        /* padding: 30px; */
+        width:150px;
+       background-color: blue;
+       /* margin: auto; */
+       margin-left: 5%;
+       border: solid;
+       border-radius: 10px;
+       box-shadow: rgba(0, 0, 0, 0.63) 6px 8px;
+       /* -webkit-text-fill-color: transparent; */
+    }
+    .home1 .hbody1 h1 a{
+        
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        text-align:center;
+        color:rgb(253, 253, 253);
+        text-decoration: none;
+    
+    }
+    .home1 .hbody1 h1 a:hover{
+       
+        color:aqua;
+    }
+}

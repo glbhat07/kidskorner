@@ -1,0 +1,79 @@
+.sclibbody{
+    background-image:linear-gradient(lightyellow,yellow,orange,rgb(255, 0, 0));
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    
+}
+.sclibdiv1 h1{
+text-shadow: 0 0 2px rgb(109, 105, 105),0 0 5px rgb(185, 180, 180);
+-webkit-text-stroke: white 0.2px;
+text-decoration: underline black;
+font-family:fantasy;
+}
+.sclibdiv2{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.sclibdiv2 figure img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}
+.sclibdiv2 figure{
+    float: left;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+@media screen and (max-width:600px){
+
+    .sclibdiv2 figure img{
+        height: 100px;
+        width: 100px;
+        border-radius: 20%;
+    }
+    .sclibdiv2 figure{
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width:450px){
+
+    .sclibdiv2 figure img{
+        height: 80px;
+        width: 80px;
+        border-radius: 20%;
+    }
+    .sclibdiv2 figure{
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-height:350px){
+
+    .sclibdiv2 figure
+    {
+        text-align: center;
+    }
+    .sclibdiv2 figure img{
+        height: 80px;
+        width: 80px;
+        border-radius: 20%;
+    }
+    .sclibdiv2 figure{
+        float: left;
+        margin-left: 7%;
+        margin-right: 5%;
+        margin-top: 1%;
+    }
+}

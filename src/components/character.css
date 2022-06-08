@@ -1,0 +1,81 @@
+
+.chbody1{
+    background-image:linear-gradient(rgb(211, 207, 207),rgb(139, 135, 135),rgb(107, 100, 100),black);
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    
+}
+.chdiv1 h1{
+text-shadow: 0 0 6px rgb(109, 105, 105),0 0 5px rgb(185, 180, 180);
+-webkit-text-stroke: white 0.2px;
+text-decoration: underline black;
+}
+.chdiv2{
+    text-align: center;
+}
+.chdiv2 img{
+ cursor:grab;
+ height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ background-color:white;
+ border: rgb(20, 22, 24) 5px solid;
+ margin-left: 2%;
+ margin-right: 2%;
+ margin-top: 5%;
+}
+@media screen and (max-width:600px){
+    .chdiv2 img{
+        cursor:grab;
+        height: 100px;
+        width: 110px;
+        border-radius: 50%;
+        border-color: rgb(12, 12, 12);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 3%;
+       }
+   
+}
+@media screen and (max-height:350px){
+
+    .char1{
+        /* height: 300%; */
+        background-image:linear-gradient(rgb(211, 207, 207),rgb(139, 135, 135),rgb(107, 100, 100),black);
+        /* background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        position: absolute;
+        top:0px;
+        right:0px;
+        bottom:0px;
+        left:0px; */
+    }
+    /* .chbody1{
+        background-image:linear-gradient(rgb(211, 207, 207),rgb(139, 135, 135),rgb(107, 100, 100),black);
+        height: 500%;
+        background-size: cover;
+        position: absolute;
+        top:0px;
+        right:0px;
+        bottom:0px;
+        left:0px;
+         
+        
+    } */
+    .chdiv2 img{
+        cursor:grab;
+        height: 90px;
+        width: 80px;
+        border-radius: 50%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 3%;
+        border: black 3px solid;
+       }
+       
+   
+}

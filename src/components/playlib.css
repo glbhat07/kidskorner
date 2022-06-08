@@ -1,0 +1,94 @@
+.pllibbody{
+    background-image:linear-gradient(lightyellow,yellow,orange,rgb(255, 0, 0));
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    
+}
+.pllibdiv1 h1{
+text-shadow: 0 0 2px rgb(109, 105, 105),0 0 5px rgb(185, 180, 180);
+-webkit-text-stroke: white 0.2px;
+text-decoration: underline black;
+font-family:fantasy;
+}
+.pllibdiv2{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.pllibdiv3{
+    text-align: center;
+}
+.pllibdiv2 figure img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}
+.pllibdiv2 figure{
+    float: left;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width:900px){
+    .pllibdiv2 figure img{
+        height: 150px;
+        width: 150px;
+        border-radius: 20%;
+    }
+    .pllibdiv2 figure{
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width:600px){
+    .pllibdiv2 figure img{
+        height: 100px;
+        width: 100px;
+        border-radius: 20%;
+    }
+    .pllibdiv2 figure{
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width:450px){
+
+    .plibdiv2 figure img{
+        height: 80px;
+        width: 80px;
+        border-radius: 20%;
+    }
+    .plibdiv2 figure{
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-height:350px){
+
+    .pllibdiv2 figure
+    {
+        text-align: center;
+    }
+    .pllibdiv2 figure img{
+        height: 70px;
+        width: 80px;
+        border-radius: 20%;
+    }
+    .pllibdiv2 figure{
+        float: left;
+        margin-left: 7%;
+        margin-right: 5%;
+        margin-top: 3%;
+    }
+}

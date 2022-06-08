@@ -1,0 +1,97 @@
+.register .register1{
+    padding-top: 3%;
+    background:url(../photos/bg2.jpg);
+    background-repeat: no-repeat;
+            background-size: cover;
+            background-position:relative;
+            background-attachment:fixed;
+            height: 100%;
+            width: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo1
+{
+    height:150px;
+     width:150px;
+}
+.register .div-2{
+    border: solid rgb(241, 245, 7) 2px;
+    background: rgba(0, 0, 0, 0.74);
+    color:white;
+text-align: center;
+height: 550px;
+width: 40%;
+margin:auto;
+border-radius: 10px 10px 10px 10px;
+}
+.register input{
+    height: 30px;
+width: 400px;
+}
+
+@media screen and (max-width:600px)
+{
+    .register .register1{
+        padding-top: 5%;
+        background:url(../photos/bg2.jpg);
+        background-repeat: no-repeat;
+                background-size: cover;
+                background-position:relative;
+                background-attachment:fixed;
+                height: 100%;
+                width: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .register .div-2{
+        border: solid rgb(241, 245, 7) 2px;
+        background: rgba(0, 0, 0, 0.74);
+        color:white;
+    text-align: center;
+    height: 550px;
+    width: 300px;
+    margin:auto;
+    border-radius: 10px 10px 10px 10px;
+    }
+    .register input{
+        height: 30px;
+    width: 250px;
+    }
+
+}
+
+@media screen and (max-width:450px)
+{
+    .logo1{
+        height:100px;
+     width:100px;
+    }
+    .register .register1{
+        padding-top: 3%;
+        background:url(../photos/bg2.jpg);
+        background-repeat: no-repeat;
+                background-size: cover;
+                background-position:relative;
+                background-attachment:fixed;
+                height: 100%;
+                width: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .register .div-2{
+        border: solid rgb(241, 245, 7) 2px;
+        background: rgba(0, 0, 0, 0.74);
+        color:white;
+    text-align: center;
+    height: 470px;
+    width: 250px;
+    margin:auto;
+    border-radius: 10px 10px 10px 10px;
+    }
+    .register input{
+        height: 30px;
+    width: 200px;
+    }
+
+}
